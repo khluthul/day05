@@ -6,7 +6,7 @@
 /*   By: khluthul <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/17 09:30:43 by khluthul          #+#    #+#             */
-/*   Updated: 2020/07/17 09:43:41 by khluthul         ###   ########.fr       */
+/*   Updated: 2020/07/17 15:18:39 by khluthul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,5 +21,6 @@ char	ft_strcpy(char *src, char *dest)
 		dest[i] = src[i];
 		i++;
 	}
+	dest[i] = '\0';
 	return(dest);
 }
